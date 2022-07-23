@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@aws-amplify/ui-react": "^1.2.26",
+    "@aws-amplify/ui-react": "^3.2.0",
     "aws-amplify": "^4.3.28",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
