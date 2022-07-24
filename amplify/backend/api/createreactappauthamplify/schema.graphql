@@ -1,4 +1,6 @@
-type Groups @model @auth(rules: [{allow: public}]) {
+type Groups @model @auth(rules: [{allow: public}, {allow: private}]) {
   id: ID!
   groupName: String
+  description: String
 }
+ 

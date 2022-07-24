@@ -16,6 +16,13 @@ export const schema = {
                     "type": "String",
                     "isRequired": false,
                     "attributes": []
+                },
+                "description": {
+                    "name": "description",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
                 }
             },
             "syncable": true,
@@ -37,6 +44,15 @@ export const schema = {
                                     "delete",
                                     "read"
                                 ]
+                            },
+                            {
+                                "allow": "private",
+                                "operations": [
+                                    "create",
+                                    "update",
+                                    "delete",
+                                    "read"
+                                ]
                             }
                         ]
                     }
@@ -46,5 +62,5 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "22e9a2ded12f765da8d5e66972850f39"
+    "version": "9370f07afd0743ae973271a8bf6ddbd2"
 };
